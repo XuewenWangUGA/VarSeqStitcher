@@ -108,7 +108,7 @@ Another result called output .html will be also generated for a colorful display
 
 ![ColorAlleleImage](VarSeqStitcher_test.PNG) Fig.1 Colorful alleles output  
 
-More alleles ![fullColorAlleles](testOutput/dna_STRcolor.html) 
+More colorful alleles: download the testOutput/dna_STRcolor.html, then open in your web browser. 
 
 
 ## Citation
