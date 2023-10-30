@@ -1,4 +1,6 @@
 # VarSeqStitcher
+A novel bioinformatics software to build and phase long alleles for SNP, STR and InDel from VCF and reference.
+
 Works for any computing system where the Java Run enviroment is avaialble. The tested systems include:
 
 Windows 10,11
