@@ -10,7 +10,7 @@ Mac OS 11.6.5
 Linux: Ubuntu 20.04, 22.04
 
 ## Installation 
-The software can be dowmload and directly use. Install it from github: 
+The software can be dowmloaded for directly use. Install it from github: 
 
 `git clone https://github.com/XuewenWangUGA/VarSeqStitcher`
 
