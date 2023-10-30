@@ -71,11 +71,11 @@ Download the subdirectory `testData` and put it inside the folder "VarSeqStitche
 ### Step 3. run the analysis with the following command
 We use the vcf files for human sample HG00130 as the test data. The original files are downloaded from the 1KG project at https://www.internationalgenome.org/data-portal/data-collection/30x-grch38. VCF for all chromosomes are merged and sorted, indexed with bcftools.
        
-`java -jar VarSeqStitcher.jar -d testData\MHindels_v0.3.bed \
--n testData\MHsnps.pos_v0.3.txt \
--r GRCh38_full_analysis_set_plus_decoy_hla.fa \
--s testData\CODISSTR_anchor.XW.config_v0.3.txt \
--v testData\CCDG_14151_B01_GRM_WGS_2020-08-05_AllChr.filtered.shapeit2-duohmm-phased.8000.HG00130.vcf.gz \
+`java -jar VarSeqStitcher.jar -d testData\MHindels_v0.3.bed \  
+-n testData\MHsnps.pos_v0.3.txt \  
+-r GRCh38_full_analysis_set_plus_decoy_hla.fa \  
+-s testData\CODISSTR_anchor.XW.config_v0.3.txt \  
+-v testData\CCDG_14151_B01_GRM_WGS_2020-08-05_AllChr.filtered.shapeit2-duohmm-phased.8000.HG00130.vcf.gz \  
 -t 2 >out.tsv`
 
 
