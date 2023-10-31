@@ -54,14 +54,17 @@ Options:
 
        
 ## Example step by step
-Here is an example of how to use this tool for a human. 
+Here is an example of how to use this tool for a human for 8-kb regions of 20 CODIS core STR sites.  For your specific genome, you just need to replace the genome and targeted sites in configure files with yours.
 Firstly go to the software directory in the command window:
 
 ` cd VarSeqStitcher`
        
 ### Step 1. prepare a genome reference file which should be the one used for vcf generation previously 
 Download the genome sequence of human from the 1000 Genome Project to the folder "VarSeqStitcher" 
-       ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome /GRCh38_full_analysis_set_plus_decoy_hla.fa	
+       ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa	
+
+       Then index the genome sequence with samtools (tool link: https://www.htslib.org/)
+       samtools faidx GRCh38_full_analysis_set_plus_decoy_hla.fa
        
        
 ### Step 2. get test data and targeted site files 
