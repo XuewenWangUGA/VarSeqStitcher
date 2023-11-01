@@ -7,7 +7,7 @@ Windows 10,11
 
 Mac OS 11.6.5
 
-Linux: Ubuntu 20.04, 22.04
+Linux: Ubuntu 20.04, 22.04; Center OS 8
 
 ## Installation 
 The software can be downloaded for a direct use. No additional compiling and installation.  Get it from Github: 
