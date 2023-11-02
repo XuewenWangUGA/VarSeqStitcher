@@ -62,8 +62,11 @@ Firstly go to the software directory in the command window:
 ### Step 1. prepare a genome reference file which should be the one used for vcf generation previously 
 Download the genome sequence of human from the 1000 Genome Project to the folder "VarSeqStitcher" 
        ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa	
+or use the command: 
 
-       Then index the genome sequence with samtools (tool link: https://www.htslib.org/)
+       `wget ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa`
+
+Then to index the genome sequence with samtools (tool link: https://www.htslib.org/)
        samtools faidx GRCh38_full_analysis_set_plus_decoy_hla.fa
        
        
