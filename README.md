@@ -111,7 +111,7 @@ The sequence line consists of three sections: SNPs, InDels, and then STR.
 
 the file can be opened in Microsoft Excel or other spreadsheet for easy read.
 
-### results 2. colorful alleles .html
+### results 2. colorful alleles
 
 Another result called output .html will be also generated for a colorful display of the alleles. This file will be opened in an internet web browser by default if available.
 
