@@ -113,11 +113,11 @@ the file can be opened in Microsoft Excel or other spreadsheet for easy read.
 
 ### results 2. colorful alleles
 
-Another result called output .html will be also generated for a colorful display of the alleles. This file will be opened in an internet web browser by default if available.
+Another output result with suffix .html will be also generated for a colorful display of the alleles. This file will be opened in an internet web browser by default if supported. If not supported, you can open the file in your web browser mannually.
 
 ![ColorAlleleImage](VarSeqStitcher_test.PNG) Fig.1 Colorful alleles output  
 
-More colorful alleles: download the testOutput/dna_STRcolor.html, then open in your web browser. 
+More colorful alleles: download the testOutput/dna_STRcolor.html, then open the file in your web browser. 
 
 
 ## Citation
