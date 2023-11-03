@@ -73,7 +73,7 @@ Then to index the genome sequence with samtools (tool link: https://www.htslib.o
        `samtools faidx GRCh38_full_analysis_set_plus_decoy_hla.fa`
        
        
-### Step 2. get test data and targeted site files 
+### Step 2. get test data and configure files for targeted sites 
 Download the subdirectory `testData` and put it inside the folder "VarSeqStitcher"
 
 
