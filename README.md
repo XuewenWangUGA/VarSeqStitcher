@@ -51,9 +51,11 @@ Options:
     -t,--ThreadNumber <arg>      integer, the number of computing threads, default [1]
     -v,--vcf <arg>               vcf file in .gz and with index gz.tbi from bcftools index --tbi
 
+## Quick start
 
+`java -jar VarSeqStitcher.jar`
        
-## Examplar analysis step by step
+## Tutorials step by step
 Here is an example of how to use this tool for a human for 8-kb regions of 20 CODIS core STR sites.  For your specific genome, you just need to replace the genome and targeted sites in configure files with yours.
 Firstly go to the software directory in the command window:
 
