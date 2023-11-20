@@ -17,7 +17,7 @@ The software can be downloaded for a direct use. No additional compiling and ins
 or download the zip compressed files and then unzip to VarSeqStitcher
 
 ## Update Java run environment if necessary
-The sfotware will use the Java runtime environment (SE) V17. If your computer has an old version of Java runtime, please install the newest Java or Java SE 17 or higher from https://www.oracle.com/java/technologies/downloads/. Either Java or Java SE should work.
+The software will use the Java runtime environment (SE) V17. If your computer has an old version of Java runtime, please install the newest Java or Java SE 17 or higher from https://www.oracle.com/java/technologies/downloads/. Either Java or Java SE should work.
 
 ## The latest version 
 v1.0
