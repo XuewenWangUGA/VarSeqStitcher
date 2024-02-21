@@ -17,7 +17,7 @@ The software can be downloaded for a direct use. No additional compiling and ins
 or download the zip compressed files and then unzip to VarSeqStitcher
 
 ## Update Java run environment if necessary
-The sfotware will use the Java runtime environment (SE) V17. If your computer has an old version of Java runtime, please install the newest Java or Java SE Development Kit 17 or higher from https://www.oracle.com/java/technologies/downloads/. Either Java or Java SE should work.
+The software will use the Java runtime environment (SE) V17. If your computer has an old version of Java runtime, please install the newest Java or Java SE 17 or higher from https://www.oracle.com/java/technologies/downloads/. Either Java or Java SE should work.
 
 ## The latest version 
 v1.0
@@ -51,9 +51,11 @@ Options:
     -t,--ThreadNumber <arg>      integer, the number of computing threads, default [1]
     -v,--vcf <arg>               vcf file in .gz and with index gz.tbi from bcftools index --tbi
 
+## Quick start
 
+`java -jar VarSeqStitcher.jar`
        
-## Examplar analysis step by step
+## Tutorials step by step
 Here is an example of how to use this tool for a human for 8-kb regions of 20 CODIS core STR sites.  For your specific genome, you just need to replace the genome and targeted sites in configure files with yours.
 Firstly go to the software directory in the command window:
 
@@ -64,14 +66,14 @@ Download the genome sequence of human from the 1000 Genome Project to the folder
        ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa	
 or use the command: 
 
-       `wget ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa`
+`wget ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa`
 
 Then to index the genome sequence with samtools (tool link: https://www.htslib.org/)  
 
-       `samtools faidx GRCh38_full_analysis_set_plus_decoy_hla.fa`
+`samtools faidx GRCh38_full_analysis_set_plus_decoy_hla.fa`
        
        
-### Step 2. get test data and targeted site files 
+### Step 2. get test data and configure files for targeted sites 
 Download the subdirectory `testData` and put it inside the folder "VarSeqStitcher"
 
 
@@ -109,13 +111,13 @@ The sequence line consists of three sections: SNPs, InDels, and then STR.
 
 the file can be opened in Microsoft Excel or other spreadsheet for easy read.
 
-### results 2. colorful alleles .html
+### results 2. colorful alleles
 
-Another result called output .html will be also generated for a colorful display of the alleles. This file will be opened in an internet web browser by default if available.
+Another output result with suffix .html will be also generated for a colorful display of the alleles. This file will be opened in an internet web browser by default if supported. If not supported, you can open the file in your web browser mannually.
 
 ![ColorAlleleImage](VarSeqStitcher_test.PNG) Fig.1 Colorful alleles output  
 
-More colorful alleles: download the testOutput/dna_STRcolor.html, then open in your web browser. 
+More colorful alleles: download the testOutput/dna_STRcolor.html, then open the file in your web browser. 
 
 
 ## Citation
