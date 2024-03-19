@@ -124,6 +124,9 @@ More colorful alleles: download the testOutput/dna_STRcolor.html, then open the 
 
 Coming soon
 
+## Funding
+This work was sponsored in part by award 15PNIJ-21-GG-04159-RESS, awarded by the National Institute of Justice, Office of Justice Programs, U.S. Department of Justice.
+
 ## Questions
 
 Please post or contact me if you have any questions.
